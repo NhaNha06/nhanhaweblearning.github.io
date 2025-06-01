@@ -1,0 +1,48 @@
+:root {
+    --text-color: black;  
+}
+
+h1 {
+    font-family:sans-serif;
+    font-size: 60;
+    color: var(--text-color);
+}
+.app-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.app-links img {
+    width: 160px;
+    height: auto;
+}
+
+.new {
+    align-items: auto;
+}
+
+.news button {
+    width: 160px;
+    height: 40px;
+    background-color: coral;
+    border-color: rgb(216, 107, 68);
+    color: aliceblue;
+}
+
+/* .table {
+    align-items: center;
+    align-content: center;
+    padding: 10px 50px;
+    border: 1px solid grey;
+    margin-left: 50px;
+} */
+
+.table th {
+    padding: 10px 100px;
+    border: 1px solid grey;
+    margin: auto;
+    color: aliceblue;
+    background-color: rgb(70, 113, 255);
+}
